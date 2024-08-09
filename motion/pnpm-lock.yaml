@@ -6,10 +6,10 @@ settings:
 
 dependencies:
   '@motion-canvas/2d':
-    specifier: ^3.16.0
+    specifier: ^3.10.1
     version: 3.16.0
   '@motion-canvas/core':
-    specifier: ^3.16.0
+    specifier: ^3.10.0
     version: 3.16.0
   '@motion-canvas/ffmpeg':
     specifier: ^1.1.0
@@ -17,16 +17,16 @@ dependencies:
 
 devDependencies:
   '@motion-canvas/ui':
-    specifier: ^3.16.0
+    specifier: ^3.10.0
     version: 3.16.0
   '@motion-canvas/vite-plugin':
-    specifier: ^3.15.1
+    specifier: ^3.10.0
     version: 3.15.1(vite@4.5.3)
   typescript:
-    specifier: ^5.2.2
-    version: 5.5.4
+    specifier: ^4.9.5
+    version: 4.9.5
   vite:
-    specifier: ^4.0.0
+    specifier: ^4.1.4
     version: 4.5.3
 
 packages:
@@ -751,9 +751,9 @@ packages:
     dependencies:
       is-number: 7.0.0
 
-  /typescript@5.5.4:
-    resolution: {integrity: sha512-Mtq29sKDAEYP7aljRgtPOpTvOfbwRWlS6dPRzwjdE+C0R4brX/GUyhHSecbHMFLNBLcJIPt9nl9yG5TZ1weH+Q==}
-    engines: {node: '>=14.17'}
+  /typescript@4.9.5:
+    resolution: {integrity: sha512-1FXk9E2Hm+QzZQ7z+McJiHL4NW1F2EzMu9Nq9i3zAaGqibafqYwCVU6WyWAuyQRRzOlxou8xZSyXLEN8oKj24g==}
+    engines: {node: '>=4.2.0'}
     hasBin: true
     dev: true
 

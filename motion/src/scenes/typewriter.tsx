@@ -1,5 +1,8 @@
-// MIT License
-// Copyright (c) 2023 Daniel Fernandes
+
+
+
+
+// https://github.com/danferns/motion-canvas-typewriter/blob/main/src/scenes/Typewriter.tsx  CREDIT: https://github.com/danferns
 
 import { Txt, TxtProps, initial, signal } from "@motion-canvas/2d";
 import { SignalValue, SimpleSignal, createSignal, useRandom, waitFor } from "@motion-canvas/core";
